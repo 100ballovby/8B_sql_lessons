@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS users (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    username VARCHAR(128) NOT NULL,
+    email VARCHAR(128) NOT NULL,
+    birthday TEXT
+);
